@@ -1,0 +1,6 @@
+module Pods_PixelPerfect {
+  umbrella header "Pods-PixelPerfect-umbrella.h"
+
+  export *
+  module * { export * }
+}
