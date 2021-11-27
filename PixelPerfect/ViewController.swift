@@ -18,6 +18,7 @@ private enum Titles{
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var bottomContent: UIView!
     var isKeyboard = false
     
     @IBOutlet weak var imageLogo: UIImageView!
@@ -33,7 +34,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var forgotPasswordButton: UIButton!
     
     @IBAction func actionLogin(_ sender: UIButton) {
-        let maxY = faceIdButtton.frame.maxY
+        let maxY = bottomContent.frame.maxY
         print(maxY)
 //        showUser()
     }
@@ -190,7 +191,7 @@ class ViewController: UIViewController {
     
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue{
-            let maxY = faceIdButtton.frame.maxY
+            let maxY = bottomContent.frame.maxY
             print(maxY)
             if keyboardSize.origin.y < maxY {
                 let offset = maxY - keyboardSize.origin.y
@@ -203,7 +204,6 @@ class ViewController: UIViewController {
     }
 
     @objc func keyboardWillHide(notification: NSNotification) {
-        isKeyboard = false
         UIView.animate(withDuration: 0.15, animations: { () -> Void in
 //            self.view.frame.origin.y = 0
             self.view.transform = CGAffineTransform.identity

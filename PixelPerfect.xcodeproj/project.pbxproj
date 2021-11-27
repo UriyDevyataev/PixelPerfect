@@ -26,6 +26,7 @@
 		CBC528CD274FD9AE007E5E03 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC528CC274FD9AE007E5E03 /* Content.swift */; };
 		CBC528CF274FE9EC007E5E03 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC528CE274FE9EC007E5E03 /* CustomButton.swift */; };
 		CBC528F12751F38F007E5E03 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC528F02751F38F007E5E03 /* TestViewController.swift */; };
+		CBC528F5275201E3007E5E03 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC528F4275201E3007E5E03 /* KeyboardLayoutConstraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		CBC528CC274FD9AE007E5E03 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		CBC528CE274FE9EC007E5E03 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		CBC528F02751F38F007E5E03 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CBC528F4275201E3007E5E03 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				CBB0E52B274D413900FEA1BB /* AppDelegate.swift */,
 				CBB0E52D274D413900FEA1BB /* SceneDelegate.swift */,
 				CBB0E52F274D413900FEA1BB /* ViewController.swift */,
+				CBC528F4275201E3007E5E03 /* KeyboardLayoutConstraint.swift */,
 				CBC528CE274FE9EC007E5E03 /* CustomButton.swift */,
 				CBB0E531274D413900FEA1BB /* Main.storyboard */,
 				CBC528F02751F38F007E5E03 /* TestViewController.swift */,
@@ -263,6 +266,7 @@
 			files = (
 				CBC528F12751F38F007E5E03 /* TestViewController.swift in Sources */,
 				CBB0E530274D413900FEA1BB /* ViewController.swift in Sources */,
+				CBC528F5275201E3007E5E03 /* KeyboardLayoutConstraint.swift in Sources */,
 				CB417C05274EAF2D00A1A1C2 /* UserViewController.swift in Sources */,
 				CBC528CF274FE9EC007E5E03 /* CustomButton.swift in Sources */,
 				CBB0E52C274D413900FEA1BB /* AppDelegate.swift in Sources */,
