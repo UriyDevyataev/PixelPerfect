@@ -44,7 +44,6 @@ class CustomViewXIB: UIView {
     }
     
     private func configViews(){
-        corner(withRadius: 20)
         delimiterView.backgroundColor = .lightGray.withAlphaComponent(0.2)
     }
     
